@@ -93,6 +93,10 @@ div.info > h2 {
     display: flex;
     padding: 90px 500px;
     flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(79, 76, 76);
 }
 
 .quote-block > p.quote {
@@ -103,6 +107,9 @@ div.info > h2 {
 
 .quoter {
     align-self: flex-end;
+    font-size: 24px;
+    font-style: normal;
+    color: #1F2937;
 }
 
 .call-to-action {
