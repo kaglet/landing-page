@@ -46,10 +46,16 @@ a {
     gap: 30px;
 }
 
+.hero-text > h1, .hero-text.secondary {
+    margin-bottom: 6px;
+}
+
 .content-container > img {
     outline: 2px solid black;
     height: 150px;
     width: 150px;
+    background-color: white;
+    border: #3882F6;
 }
 
 .pics-container {
@@ -62,7 +68,10 @@ a {
 /*Fix the image height so it doesn't auto size with width*/
 .hero-text-container > img {
     flex-grow: 2;
+    width: 300px;
     height: 210px;
+    background-color: grey;
+    /* color: grey; */
 }
 
 .hero-text-container > div {
@@ -91,18 +100,19 @@ div.info > h2 {
 
 .quote-block {
     display: flex;
-    padding: 90px 500px;
+    padding: 90px 380px;
     flex-direction: column;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    color: rgb(79, 76, 76);
+    font-weight: 0;
+    color: rgb(97, 92, 92);
 }
 
 .quote-block > p.quote {
     align-self: flex-end;
-    min-height: 250px;
-    max-width: 500px;
+    /* min-height: 250px; */
+    max-width: 700px;
 }
 
 .quoter {
@@ -128,6 +138,7 @@ div.info > h2 {
 
 button {
     align-self: center;
+    padding: 5px 15px;
 }
 
 .footer {
