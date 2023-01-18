@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+body > div {
+    flex-grow: 1;
+}
+
+* {
+    outline: 2px solid rosybrown;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 200px;
+}
+
+.header-links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header > ul {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-text-container {
+    padding: 100px 180px;
+    display: flex;
+    gap: 30px;
+}
+
+.content-container > img {
+    outline: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.pics-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Fix the image height so it doesn't auto size with width*/
+.hero-text-container > img {
+    flex-grow: 2;
+    height: 210px;
+}
+
+.hero-text-container > div {
+    flex-grow: 1;
+    width: 400px;
+    height: 210px;
+}
+
+div.info > h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.info {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-block {
+    display: flex;
+    padding: 90px 500px;
+    flex-direction: column;
+}
+
+.quote-block > p.quote {
+    align-self: flex-end;
+    min-height: 250px;
+    max-width: 500px;
+}
+
+.quoter {
+    align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 300px;
+}
+
+.call-to-action > .container {
+    padding: 40px 75px;
+    display: flex;
+    gap: 200px;
+    flex-grow: 1;
+}
+
+button {
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
