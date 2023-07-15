@@ -2,7 +2,7 @@
 
 ## Project Description:   
 
-Website landing page constructed from a given picture design.
+Website landing page.
 
 ## Skills demonstrated:   
 
