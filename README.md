@@ -2,11 +2,5 @@
 
 ## Project Description:   
 
-Website landing page constructed from a given picture design.
-
-## Skills demonstrated:   
-
-- Basic layout using HTML.
-
-- CSS styling using the Flow and Flexbox layout modes.   
+This is a dummy website landing page done in html and css, made as part of [The Odin Project](https://www.theodinproject.com) open source web development course. This is the second assignment of the foundations section.   
 
